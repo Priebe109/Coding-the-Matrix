@@ -1,0 +1,17 @@
+Q: What does the notation f: A -> B mean?
+A: The function f maps domain A to subdomain B
+
+Q: What are the criteria for f to be an invertible function?
+A: f must be one-to-one and onto (meaning f's subdomain is contained in f's image)
+
+Q: What is associativity of function composition?
+A: In function composition parenthases are unnecessary e.g. f o g o h = (f o g) o h = f o (g o h)
+
+Q What are the criteria for a function to be a probability function?
+A: The functions subdomain is R+ and the sum of the image is 1
+
+Q: What is the Fundamental Principle of Probability Theory?
+A: 1/4 chance + 1/4 chance = 1/2 chance
+
+Q: If the input of an invertible function is chosen at random according to the uniform distribution, what is the distribution og the output?
+A: The probability is preserved for invertible functions, so the output is also according to uniform distribution

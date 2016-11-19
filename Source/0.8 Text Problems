@@ -1,0 +1,49 @@
+#
+# Functional invers
+#
+
+Problem 0.8.6
+A:  Yes (one-to-one and onto)
+
+Problem 0.8.7
+A:  No (one-to-one but NOT onto)
+
+#
+# Functional composition
+#
+
+Problem 0.8.8
+A:  Yes, g o f is legal since the image of f (positive values) are contained in the domain of g (R)
+
+    e.g. g o f = g(f(x))
+    4 -> 2
+   -4 -> 2
+    0 -> 0
+    9 -> 3
+
+Problem 0.8.9
+A:  Yes
+    
+    f o g
+    1 -> 23
+    2 -> 22
+    3 -> 21
+
+#
+# Probability
+#
+
+Problem 0.8.10
+A:  The function is invertible, therefor - probability of output: Pr(2) = 0.5, Pr(3) = 0.2, Pr(4) = Pr(5) = Pr(6) = 0.1
+    
+    Using the fundamental principle of probability:
+    Pr('even number') = Pr(2) + Pr(4) + Pr(6) = 0.5 + 0.1 + 0.1 = 0.7
+    Pr('odd number') = Pr(3) + Pr(5) = 0.2 + 0.1 = 0.3
+
+Problem 0.8.11
+A:  The function is not invertible (not one-to-one)
+    Probability of outputs calculated using known probability of inputs (not uniform)
+    
+    Pr_o(0) = Pr_i(3) + Pr_i(6) = 0.2 + 0.1 = 0.3
+    Pr_o(1) = Pr_i(1) + Pr_i(4) + Pr_i(7) = 0.2 + 0.1 + 0.1 = 0.4
+    Pr_o(2) = Pr_i(2) + Pr_i(5) = 0.2 + 0.1 = 0.3

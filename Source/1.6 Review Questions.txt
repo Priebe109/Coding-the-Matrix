@@ -1,0 +1,30 @@
+Q:  Name three fields
+A:  R (real numbers), C (complex numbers), GF(2) the "binary" field
+
+Q:  What is the conjugate of a complex number?
+A:  conjugate of 1+1i is 1-ii, the sign of i is inverted e.g. flipped vertically
+
+Q:  How does complex-number addition work?
+A:  The real are added together and the imaginary parts are added together e.g. 1+1i + 2+3i = 3+4i
+
+Q:  How does complex-number multiplication work?
+A:  Scaling e.g. 1+1i / 2 = 0.5+0.5i
+ 
+Q:  How can translation be described in terms of complex numbers?
+A:  f(z1) = z1 + z
+    -> Addition
+
+Q:  How can scaling be described in terms of complex numbers?
+A:  Multiplication
+
+Q:  How can rotation by 180 degrees be described in t...?
+A:  Multiplication by -1, or e^(pi*i)
+
+Q:  How can rotation by 90 degre...?
+A:  Multiplication by i, or e^(pi/2*i)
+
+Q:  How does addition work in GF(2)?
+A:  XOR (0+0=0, 0+1=1, 1+1=0)
+
+Q:  How does multiplication work in GF(2)?
+A:  Normal (0*0=0, 0*1=0, 1*1=1)
